@@ -21,8 +21,5 @@ def weekday():
     dia = input().lower()
     if dia == ("martes") or dia == ("lunes") or dia == ("miercoles") or dia == ("jueves") or dia == ("viernes"):
         print("Dia habil")
-    elif dia == ("sabado") or ("domingo"):
+    elif dia == ("sabado") or dia == ("domingo"):
         print("Fin de semana")
-
-
-
