@@ -22,4 +22,4 @@ def positive():
     elif numero < 0:
         print("El numero es negativo")
     elif numero == 0 :
-        print("El numero es 0")
+        print("El numero es cero")
