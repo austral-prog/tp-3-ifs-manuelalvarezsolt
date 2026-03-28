@@ -9,7 +9,7 @@ def age_check():
     Si alguno de los números es negativo o cero, imprimir "Entrada invalida".
 
     Ejemplo:
-        Para las entradas "20" y "18", la salida esperada es:
+        Para las entrada   s "20" y "18", la salida esperada es:
         Eres mayor de edad
 
         Para las entradas "16" y "18", la salida esperada es:
@@ -26,5 +26,5 @@ def age_check():
     else:
         if edad < limite:
             print("Eres menor de edad")
-        if edad > limite:
+        if edad >= limite:
             print("Eres mayor de edad")
