@@ -28,13 +28,13 @@ def discount():
     precio = float(input())
     cantidad = int(input())
     precioo = precio * cantidad
-    if cantidad > 10:
+    if cantidad >= 10:
         descuento = 20
         descuento1 = 0.2
     elif cantidad > 4 and cantidad < 10:
         descuento = 10
         descuento1 = 0.1
-    elif cantidad < 0:
+    elif cantidad < 5:
         descuento = 0
     print(f"Subtotal: {precio * cantidad}")
     print(f"Descuento aplicado: {descuento}%")
